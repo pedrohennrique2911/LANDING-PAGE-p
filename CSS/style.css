@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1a1e29;
+    max-width: 1440px;
+    margin: 0 auto;
+   
+}
+header{
+    background-color: #1a1e29;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px 20px 20px;
+    flex-wrap: wrap;
+    
+}
+.cell{
+    font-size: 40px;
+    padding-top: 3px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 55px;
+   align-items: center;
+   font-weight: bold;
+   font-size: 20px;
+   flex-wrap: wrap;
+    
+}
+li {
+    list-style: none;
+    cursor: pointer;
+    display: inline-block;
+    color: #fff;
+   
+}
+li:hover{
+    transform: scale(1.03);
+}
+
+.login{
+    cursor: pointer;
+   padding-left: 30px;
+   padding-right: 30px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   background-color: #fff;
+   color: #132d46;
+   font-weight: bold;
+   border: none;
+   border-radius: 15px;
+   font-size: 20px;
+}
+.login:hover{
+    transform: scale(1.03);
+    
+}
+.sobre{
+    position: relative;
+    color:#fff;
+    padding: 0px 80px 0px 80px;;
+    
+}
+.ball{
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    background-color: #1B98E0;
+    opacity: 10%;
+    border-radius: 50%;
+    left: -300px;
+}
+.titulo{
+    font-weight: 100;
+    font-size: 60px;
+}
+p{
+    font-size: 30px;
+}
+.p1{
+    font-size: 24px;
+}
+.icones{
+    display: flex;
+    gap: 90px;
+}
+.fa-solid{
+    color: #01c38e;
+}
+main{
+    display: flex;
+    flex-direction:row;
+    gap: 50px;
+    margin-top: 50px;
+
+}
+#iphone{
+    width: 580px;
+}
+.see{
+    cursor: pointer;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #fff;
+    color: #132d46;
+    font-weight: bold;
+    border: none;
+    font-size: 20px;
+    border-radius: 15px;
+    transition: trasform 2s linear;
+    
+   
+}
+
+.see:hover{
+    transform: scale(1.06);
+    opacity: 0.5;
+}
+
+.seemore{
+    margin-left: 140px;
+}
+
